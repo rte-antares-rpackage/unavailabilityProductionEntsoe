@@ -12,6 +12,8 @@ Todo!
 ```r
 # Install dependencies
 
+devtools::install_github("rte-antares-rpackage/unavailabilityProductionEntsoe")
+
 ```
 
 ## Prerequisites
