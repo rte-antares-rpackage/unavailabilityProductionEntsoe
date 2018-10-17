@@ -1,3 +1,6 @@
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/rte-antares-rpackage/unavailabilityProductionEntsoe?branch=master&svg=true)](https://ci.appveyor.com/project/rte-antares-rpackage/unavailabilityProductionEntsoe)
+
+
 # The 'unavailabilityProductionEntsoe' R package
 
 The `unavailabilityProductionEntsoe` package provides functions to download, analyze and aggregate indisponibility data fram ENTSOE platform.
