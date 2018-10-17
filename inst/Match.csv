@@ -1,0 +1,121 @@
+Code;Meaning;On
+A03;Mixed;psrtype
+A04;Generation;psrtype
+A05;Load;psrtype
+B01;Biomass;psrtype
+B02;Fossil Brown coal/Lignite;psrtype
+B03;Fossil Coal-derived gas;psrtype
+B04;Fossil Gas;psrtype
+B05;Fossil Hard coal;psrtype
+B06;Fossil Oil;psrtype
+B07;Fossil Oil shale;psrtype
+B08;Fossil Peat;psrtype
+B09;Geothermal;psrtype
+B10;Hydro Pumped Storage;psrtype
+B11;Hydro Run-of-river and poundage;psrtype
+B12;Hydro Water Reservoir;psrtype
+B13;Marine;psrtype
+B14;Nuclear;psrtype
+B15;Other renewable;psrtype
+B16;Solar;psrtype
+B17;Waste;psrtype
+B18;Wind Offshore;psrtype
+B19;Wind Onshore;psrtype
+B20;Other;psrtype
+B21;AC Link;psrtype
+B22;DC Link;psrtype
+B23;Substation;psrtype
+B24;Transformer;psrtype
+10YDE-VE-------2;50Hertz CA, DE(50HzT) BZA;zone
+10YAL-KESH-----5;Albania, OST BZ / CA / MBA;zone
+10YDE-RWENET---I;Amprion CA;zone
+10YAT-APG------L;Austria, APG CA / MBA;zone
+BY;Belarus;zone
+10Y1001A1001A51S;Belarus BZ / CA / MBA;zone
+10YBE----------2;Belgium, Elia BZ / CA / MBA;zone
+10YBA-JPCC-----D;Bosnia Herzegovina, NOS BiH BZ / CA / MBA;zone
+10YCA-BULGARIA-R;Bulgaria, ESO BZ / CA / MBA;zone
+10YDOM-CZ-DE-SKK;BZ CZ+DE+SK BZ / BZA;zone
+10YHR-HEP------M;Croatia, HOPS BZ / CA / MBA;zone
+10YDOM-REGION-1V;CWE Region;zone
+10YCY-1001A0003J;Cyprus, Cyprus TSO BZ / CA / MBA;zone
+10YCZ-CEPS-----N;Czech Republic, CEPS BZ / CA/ MBA;zone
+10Y1001A1001A63L;DE-AT-LU BZ;zone
+10Y1001A1001A82H;DE-LU MBA;zone
+10Y1001A1001A65H;Denmark;zone
+10YDK-1--------W;DK1 BZ / MBA;zone
+10YDK-2--------M;DK2 BZ / MBA;zone
+10Y1001A1001A796;Denmark, Energinet CA;zone
+10Y1001A1001A39I;Estonia, Elering BZ / CA / MBA;zone
+10YFI-1--------U;Finland, Fingrid BZ / CA / MBA;zone
+10YMK-MEPSO----8;Former Yugoslav Republic of Macedonia, MEPSO BZ / CA / MBA;zone
+10YFR-RTE------C;France, RTE BZ / CA / MBA;zone
+10Y1001A1001A83F;Germany;zone
+10YGR-HTSO-----Y;Greece, IPTO BZ / CA/ MBA;zone
+10YHU-MAVIR----U;Hungary, MAVIR CA / BZ / MBA;zone
+IS;Iceland;zone
+10Y1001A1001A59C;Ireland (SEM) BZ / MBA;zone
+10YIE-1001A00010;Ireland, EirGrid CA;zone
+10YIT-GRTN-----B;Italy, IT CA / MBA;zone
+10Y1001A1001A885;Italy_Saco_AC;zone
+10Y1001A1001A893;Italy_Saco_DC;zone
+10Y1001A1001A699;IT-Brindisi BZ;zone
+10Y1001A1001A70O;IT-Centre-North BZ;zone
+10Y1001A1001A71M;IT-Centre-South BZ;zone
+10Y1001A1001A72K;IT-Foggia BZ;zone
+10Y1001A1001A66F;IT-GR BZ;zone
+10Y1001A1001A84D;IT-MACROZONE NORTH MBA;zone
+10Y1001A1001A85B;IT-MACROZONE SOUTH MBA;zone
+10Y1001A1001A877;IT-Malta BZ;zone
+10Y1001A1001A73I;IT-North BZ;zone
+10Y1001A1001A80L;IT-North-AT BZ;zone
+10Y1001A1001A68B;IT-North-CH BZ;zone
+10Y1001A1001A81J;IT-North-FR BZ;zone
+10Y1001A1001A67D;IT-North-SI BZ;zone
+10Y1001A1001A76C;IT-Priolo BZ;zone
+10Y1001A1001A77A;IT-Rossano BZ;zone
+10Y1001A1001A74G;IT-Sardinia BZ;zone
+10Y1001A1001A75E;IT-Sicily BZ;zone
+10Y1001A1001A788;IT-South BZ;zone
+10Y1001A1001A50U;Kaliningrad BZ / CA / MBA;zone
+10YLV-1001A00074;Latvia, AST BZ / CA / MBA;zone
+10YLT-1001A0008Q;Lithuania, Litgrid BZ / CA / MBA;zone
+10YLU-CEGEDEL-NQ;Luxembourg, CREOS CA;zone
+10Y1001A1001A93C;Malta, Malta BZ / CA / MBA;zone
+10YCS-CG-TSO---S;Montenegro, CGES BZ / CA / MBA;zone
+10YGB----------A;National Grid BZ / CA/ MBA;zone
+10YNL----------L;Netherlands, TenneT NL BZ / CA/ MBA;zone
+10YNO-1--------2;NO1 BZ / MBA;zone
+10YNO-2--------T;NO2 BZ / MBA;zone
+10YNO-3--------J;NO3 BZ / MBA;zone
+10YNO-4--------9;NO4 BZ / MBA;zone
+10Y1001A1001A48H;NO5 BZ / MBA;zone
+10YNO-0--------C;Norway, Norway MBA, Stattnet CA;zone
+10YDOM-1001A082L;PL-CZ BZA / CA;zone
+10YPL-AREA-----S;Poland, PSE SA BZ / BZA / CA / MBA;zone
+10YPT-REN------W;Portugal, REN BZ / CA / MBA;zone
+10Y1001A1001A990;Republic of Moldova, Moldelectica BZ/CA/MBA;zone
+10YRO-TEL------P;Romania, Transelectrica BZ / CA/ MBA;zone
+10Y1001A1001A49F;Russia BZ / CA / MBA;zone
+RU;Russian Federation;zone
+10Y1001A1001A44P;SE1 BZ / MBA;zone
+10Y1001A1001A45N;SE2 BZ / MBA;zone
+10Y1001A1001A46L;SE3 BZ / MBA;zone
+10Y1001A1001A47J;SE4 BZ / MBA;zone
+10YCS-SERBIATSOV;Serbia, EMS BZ / CA / MBA;zone
+10YSK-SEPS-----K;Slovakia, SEPS BZ / CA / MBA;zone
+10YSI-ELES-----O;Slovenia, ELES BZ / CA / MBA;zone
+10Y1001A1001A016;Northern Ireland, SONI CA;zone
+10YES-REE------0;Spain, REE BZ / CA / MBA;zone
+10YSE-1--------K;Sweden, Sweden MBA, SvK CA;zone
+10YCH-SWISSGRIDZ;Switzerland, Swissgrid BZ / CA / MBA;zone
+10YDE-EON------1;TenneT GER CA;zone
+10YDE-ENBW-----N;TransnetBW CA;zone
+TR;Turkey;zone
+10YTR-TEIAS----W;Turkey BZ / CA / MBA;zone
+10Y1001C--00003F;Ukraine, Ukraine BZ, MBA;zone
+10Y1001A1001A869;Ukraine-DobTPP CTA;zone
+10YUA-WEPS-----0;Ukraine BEI CTA;zone
+10Y1001C--000182;Ukraine IPS CTA;zone
+A53;Planned maintenance;BusinessType
+A54;Unplanned outage;BusinessType
