@@ -148,7 +148,7 @@ runIndispoApp <- function(path)
 .legend li { float: left; margin-right: 10px; }
                       .legend span { border: 1px solid #ccc; float: left; width: 40px; height: 20px; margin: 2px; }
                       /* your colors */
-                      .legend .superawesome { background-color: #00aa00; }
+                      .legend .superawesome { background-color: #a94f00; }
                       .legend .awesome { background-color: #aa0000; }
 
     "))
