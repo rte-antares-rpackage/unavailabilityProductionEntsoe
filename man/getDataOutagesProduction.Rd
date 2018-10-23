@@ -38,7 +38,7 @@ getDataOutagesProduction request ensoe API and create RDS file who contains unav
 \dontrun{
 
  #PROD : "A77" Gene : "A80"
- token <- "35324aa6-f330-4240-ba21-81a1c7639548"
+ token <- "Mytoken"
  #BiddingZone_Domain = "10YFR-RTE------C"
  #BiddingZone_Domain = "10YBE----------2"
  #BiddingZone_Domain = "10YNL----------L"
