@@ -148,8 +148,8 @@ runIndispoApp <- function(path)
 .legend li { float: left; margin-right: 10px; }
                       .legend span { border: 1px solid #ccc; float: left; width: 40px; height: 20px; margin: 2px; }
                       /* your colors */
-                      .legend .superawesome { background-color: #a94f00; }
-                      .legend .awesome { background-color: #aa0000; }
+                      .legend .superawesome { background-color: #ff9933; }
+                      .legend .awesome { background-color: #e60000; }
 
     "))
     ),
@@ -216,8 +216,8 @@ runIndispoApp <- function(path)
       if(nrow(DT)>0){
 
         style = ifelse(DT$outageType == "Planned maintenance",
-                       "background-color: #00AA00;border-color: #00AA00;",
-                       "background-color: #AA0000;border-color: #AA0000;")
+                       "background-color: #ff9933;border-color: #ff9933;",
+                       "background-color: #e60000;border-color: #e60000;")
         content <- paste0("<b>", DT$id, "</b>")
 
         nam <- names(DT)

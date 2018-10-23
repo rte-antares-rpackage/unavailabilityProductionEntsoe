@@ -2,10 +2,10 @@ Package: unavailabilityProductionEntsoe
 Type: Package
 Title: Unavailability Production ENTSOE
 Version: 1.0.0
-Authors@R: c(person("Titouan", "Robert", , "titouan.robert@datastorm.fr", role = c("aut", "cre")),
-             person("Thomas", "Negrel", , "thomas.negrel@rte-france.com", role = "aut"),
+Authors@R: c(person("Titouan", "Robert", , "titouan.robert@datastorm.fr", role = c("aut")),
+             person("Thomas", "Negrel", , "thomas.negrel@rte-france.com", role = c("aut","cre")),
              person("RTE", role = "cph"))
-Maintainer: The package maintainer <titouan.robert@datastorm.fr>
+Maintainer: The package maintainer <thomas.negrel@rte-france.com>
 Description: Download and read unavailability of European electric power plants from the ENTSOE transparency platform (<http://transparency.entsoe.eu/>) and aggregate them by groups.
 Encoding: UTF-8
 LazyData: true
