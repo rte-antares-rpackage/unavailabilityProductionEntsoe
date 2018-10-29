@@ -43,7 +43,7 @@ token <- "My-token"
 
 #NL
 getDataOutagesProduction(token = token, bz = "10YNL----------L", docType = "A80",
-   start = "2018-01-01", end = "2018-02-31", fileToMerge = "NLindispo.csv")
+   start = "2018-01-01", end = "2018-02-28", fileToMerge = "NLindispo.csv")
 ```
 ## Data visualization : **runIndispoApp**
 
