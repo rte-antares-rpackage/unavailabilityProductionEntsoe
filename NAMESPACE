@@ -3,6 +3,7 @@
 export(aggregateIndispo)
 export(cleanAfterRead)
 export(getDataOutagesProduction)
+export(getEstimedNetTransferCapacity)
 export(giveTS)
 export(runIndispoApp)
 export(unavailabilityPUTS)
