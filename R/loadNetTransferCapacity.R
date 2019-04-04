@@ -49,7 +49,7 @@
 #'   contract_MarketAgreement.Type = "A01",
 #'   in_Domain = "10YFR-RTE------C",
 #'   out_Domain = "10Y1001A1001A73I",
-#'   periodStart = "2019-04-03",
+#'   periodStart = "2018-04-03",
 #'   periodEnd = "2019-04-04")
 #'   
 #'   
