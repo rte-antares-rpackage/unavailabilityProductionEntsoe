@@ -9,27 +9,62 @@
 #' @examples
 #' \dontrun{
 #' 
+#' 
+#' ##FR-GB
 #' getEstimedNetTransferCapacity(
 #'   securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
-#'   documentType="A61",
+#'   documentType = "A61",
 #'   contract_MarketAgreement.Type = "A01",
 #'   in_Domain = "10YFR-RTE------C",
 #'   out_Domain = "10YGB----------A",
 #'   periodStart = "2018-10-12",
 #'   periodEnd = "2018-10-12")
+#'   
+#' ##FR-CH
+#' getEstimedNetTransferCapacity(
+#'   securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+#'   documentType = "A61",
+#'   contract_MarketAgreement.Type = "A01",
+#'   in_Domain = "10YFR-RTE------C",
+#'   out_Domain = "10YCH-SWISSGRIDZ",
+#'   periodStart = "2018-10-12",
+#'   periodEnd = "2018-10-12")
+#'   
+#'   
+#' ##FR-ES
+#' getEstimedNetTransferCapacity(
+#'   securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+#'   documentType = "A61",
+#'   contract_MarketAgreement.Type = "A01",
+#'   in_Domain = "10YFR-RTE------C",
+#'   out_Domain = "10YES-REE------0",
+#'   periodStart = "2018-10-12",
+#'   periodEnd = "2018-10-12")
+#'   
+#'   
+#' ##FR-IT
+#' getEstimedNetTransferCapacity(
+#'   securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+#'   documentType = "A61",
+#'   contract_MarketAgreement.Type = "A01",
+#'   in_Domain = "10YFR-RTE------C",
+#'   out_Domain = "10Y1001A1001A73I",
+#'   periodStart = "2019-04-03",
+#'   periodEnd = "2019-04-04")
+#'   
+#'   
+#'   
 #' }
 #'
 #' @export 
 getEstimedNetTransferCapacity <- function(entsoeHttp = "https://transparency.entsoe.eu/api?", ...){
+  
   req = .getnerateRequest(...)
   req = paste0(entsoeHttp, req)
-  req
+  print(req)
   xmlfiles <- .getDataToXML(req)
   xmlfiles = list.files(xmlfiles, full.names = TRUE)
-  library(XML)
-  library(data.table)
   DTlist <- xmlToList(xmlParse(xmlfiles))
-  names(DTlist)
   
   allINfo = data.table(
     mRID = DTlist$mRID,
@@ -42,8 +77,6 @@ getEstimedNetTransferCapacity <- function(entsoeHttp = "https://transparency.ent
   output = data.table(allINfo, rbindlist(lapply(DTlist[names(DTlist)=="TimeSeries"], .dParseTs)))
   output$value <- as.numeric(output$value)
   output
-  
-  
 }
 
 .dParseTs <- function(X){
@@ -51,8 +84,8 @@ getEstimedNetTransferCapacity <- function(entsoeHttp = "https://transparency.ent
   end <- X$Period$timeInterval$end
   begin <- as.POSIXct(begin, format = "%Y-%m-%dT%H:%MZ", tz = "UTC")  
   
-  per <- per[names(per)=="Point"]
-  allP <- rbindlist(lapply(per, function(Y){
+  X <- X$Period[names(X$Period)=="Point"]
+  allP <- rbindlist(lapply(X, function(Y){
     data.table(timestamp = begin + 1800 + 3600 * as.numeric(Y$position), value = Y$quantity)
   }))
 }

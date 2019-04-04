@@ -19,14 +19,51 @@ getDataOutagesProduction request ensoe API.
 \examples{
 \dontrun{
 
+
+##FR-GB
 getEstimedNetTransferCapacity(
   securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
-  documentType="A61",
+  documentType = "A61",
   contract_MarketAgreement.Type = "A01",
   in_Domain = "10YFR-RTE------C",
   out_Domain = "10YGB----------A",
   periodStart = "2018-10-12",
   periodEnd = "2018-10-12")
+  
+##FR-CH
+getEstimedNetTransferCapacity(
+  securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+  documentType = "A61",
+  contract_MarketAgreement.Type = "A01",
+  in_Domain = "10YFR-RTE------C",
+  out_Domain = "10YCH-SWISSGRIDZ",
+  periodStart = "2018-10-12",
+  periodEnd = "2018-10-12")
+  
+  
+##FR-ES
+getEstimedNetTransferCapacity(
+  securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+  documentType = "A61",
+  contract_MarketAgreement.Type = "A01",
+  in_Domain = "10YFR-RTE------C",
+  out_Domain = "10YES-REE------0",
+  periodStart = "2018-10-12",
+  periodEnd = "2018-10-12")
+  
+  
+##FR-IT
+getEstimedNetTransferCapacity(
+  securityToken = "3ea2c90d-8ecb-4452-898a-263ea835f498",
+  documentType = "A61",
+  contract_MarketAgreement.Type = "A01",
+  in_Domain = "10YFR-RTE------C",
+  out_Domain = "10Y1001A1001A73I",
+  periodStart = "2019-04-03",
+  periodEnd = "2019-04-04")
+  
+  
+  
 }
 
 }
