@@ -3,7 +3,7 @@
 #' getDataOutagesProduction request ensoe API.
 #'
 #' @param entsoeHttp \code{character} enstoe API defalut : "https://transparency.entsoe.eu/api?"
-#' @param ... others params
+#' @param ... others params see examples for details.
 #' 
 #' 
 #' @examples
